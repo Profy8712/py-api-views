@@ -20,4 +20,3 @@ urlpatterns = [
     path("actors/<int:pk>/", ActorDetailView.as_view(), name="actor-detail"),
     path("", include(router.urls)),
 ]
-
